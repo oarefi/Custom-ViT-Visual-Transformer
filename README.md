@@ -1,6 +1,6 @@
 # Custom-ViT-Visual-Transformer
 
-# Vision Transformer (ViT)
+## Vision Transformer (ViT)
 
 This repository contains the code for training a Vision Transformer (ViT) model using the MNIST dataset. The ViT model is implemented using PyTorch and is trained to classify handwritten digits. 
 MNIST contains 60,000 handwritten numbers for training and 10,000 handwritten numbers for testing. Custom ViT efficiently achieved an impressive 90% accuracy in only 30 epochs.
