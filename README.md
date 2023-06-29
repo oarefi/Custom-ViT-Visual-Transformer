@@ -40,11 +40,11 @@ Before running the code, make sure you have the following dependencies installed
 # Usage
 
 Clone the repository:
-git clone https://github.com/your_username/vision-transformer.git
-cd vision-transformer
+'git clone https://github.com/your_username/vision-transformer.git'
+'cd vision-transformer'
 
 Run the script:
-python main.py
+'python main.py'
 
 # Code Explanation
 The code is structured as follows:
