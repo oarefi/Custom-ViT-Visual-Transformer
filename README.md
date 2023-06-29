@@ -43,9 +43,9 @@ The code is structured as follows:
 # Output
 The training process produces the following output:
 
-Epoch 1/30, Train Loss: 2.1635, Test Loss: 2.0296, Accuracy: 0.4228
-Epoch 2/30, Train Loss: 2.0531, Test Loss: 1.9152, Accuracy: 0.5475
+>Epoch 1/30, Train Loss: 2.1635, Test Loss: 2.0296, Accuracy: 0.4228
+>Epoch 2/30, Train Loss: 2.0531, Test Loss: 1.9152, Accuracy: 0.5475
 ...
-Epoch 29/30, Train Loss: 1.6283, Test Loss: 1.5587, Accuracy: 0.9033
-Epoch 30/30, Train Loss: 1.6282, Test Loss: 1.5587, Accuracy: 0.9035
-The output shows the training progress over multiple epochs. For each epoch, it displays the training loss, test loss, and accurac
+>Epoch 29/30, Train Loss: 1.6283, Test Loss: 1.5587, Accuracy: 0.9033
+>Epoch 30/30, Train Loss: 1.6282, Test Loss: 1.5587, Accuracy: 0.9035
+>The output shows the training progress over multiple epochs. For each epoch, it displays the training loss, test loss, and accuracy 
