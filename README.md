@@ -5,7 +5,7 @@
 This repository contains the code for training a Vision Transformer (ViT) model using the MNIST dataset. The ViT model is implemented using PyTorch and is trained to classify handwritten digits. 
 MNIST contains 60,000 handwritten numbers for training and 10,000 handwritten numbers for testing. Custom ViT efficiently achieved an impressive 90% accuracy in only 30 epochs.
 
-# Example of Data
+## Example of Data
 
 ![Alt Text](Example.png)
 
@@ -37,7 +37,7 @@ Before running the code, make sure you have the following dependencies installed
 - PyTorch (1.8.1 or higher)
 - NumPy (1.19.5 or higher)
 
-# Usage
+## Usage
 
 Clone the repository:
 ```
@@ -48,7 +48,7 @@ Run the script:
 ```
 python main.py
 ```
-# Code Explanation
+## Code Explanation
 The code is structured as follows:
 
 * The create_patches function is used to split the input images into patches for processing by the ViT model.
@@ -61,7 +61,7 @@ The code is structured as follows:
 * The main script loads the MNIST dataset, creates data loaders, initializes the ViT model, defines the loss function and optimizer, and trains the model.
 
 
-# Output
+## Output
 The training process produces the following output:
 
 * Epoch 1/30, Train Loss: 2.1635, Test Loss: 2.0296, Accuracy: 0.4228
