@@ -9,6 +9,25 @@ MNIST contains 60,000 handwritten numbers for training and 10,000 handwritten nu
 
 ![Alt Text](Example.png)
 
+## Visual Transformer description
+
+Visual transformers, also known as vision transformers or ViTs, are a type of deep learning model specifically designed for image recognition tasks. They are inspired by the success of transformers in natural language processing and have shown promising results in various computer vision tasks.
+
+Traditional convolutional neural networks (CNNs) have been the dominant architecture for image classification tasks. However, transformers have emerged as a powerful alternative that can capture long-range dependencies and attend to different parts of the image simultaneously.
+
+The key idea behind visual transformers is to treat an image as a sequence of patches, where each patch represents a local region of the image. These patches are then flattened and fed as input to the transformer model. By representing the image as a sequence, visual transformers can leverage the self-attention mechanism present in transformers to capture relationships between different patches.
+
+The architecture of a visual transformer typically consists of an initial embedding layer, a transformer encoder, and a classification head. The embedding layer converts the input image patches into a higher-dimensional feature representation. The transformer encoder consists of multiple self-attention layers and feed-forward neural networks, enabling the model to capture global and local relationships within the image. Finally, the classification head takes the output of the transformer encoder and performs the final classification based on the task at hand.
+
+Training visual transformers usually involves a large labeled dataset, such as ImageNet, and the use of techniques like supervised fine-tuning. The models are trained with a combination of image classification loss and regularization methods to generalize well to unseen images.
+
+One notable advantage of visual transformers is their ability to handle images of varying sizes, as the image patches can be resized to a fixed size before being processed by the transformer. Additionally, visual transformers have shown good transfer learning capabilities, where pre-trained models on large-scale datasets can be fine-tuned for specific tasks with limited labeled data.
+
+While visual transformers have achieved impressive results in image classification, they may not be as efficient as CNNs for tasks like object detection or segmentation, which require dense spatial information. However, ongoing research aims to improve the performance and efficiency of visual transformers in these areas.
+
+In summary, visual transformers are a recent development in computer vision that leverage the transformer architecture to capture relationships and dependencies in images. They have shown great potential in image classification tasks and continue to be an active area of research in the field of deep learning.
+
+
 
 ## Prerequisites
 
